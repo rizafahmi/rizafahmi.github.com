@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Riza's Notes</title><link>../.</link><description></description><atom:link href=".././feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 11 Jul 2012 10:27:00 +0700</lastBuildDate><item><title>Pelican and Github Says Hello!</title><link>.././pelican-and-github-says-hello.html</link><description>&lt;div class="section" id="introduction"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Riza's Notes</title><link>../.</link><description></description><atom:link href=".././feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 11 Jul 2012 13:00:00 +0700</lastBuildDate><item><title>This Is Why I Hate Android Development</title><link>.././this-is-why-i-hate-android-development.html</link><description>&lt;p&gt;Well, this is the reason why I hate developing in android platform.&lt;/p&gt;
+&lt;div class="section" id="introduction"&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;img alt="images/boy.png" src="images/boy.png" /&gt;
+&lt;p&gt;Since my baby boy loves playing piano app on the ipad, I decide to make some
+piano app for ipad without annoying adv. This is what it looks like in the
+ipad.&lt;/p&gt;
+&lt;img alt="images/pianaufal.png" src="images/pianaufal.png" /&gt;
+&lt;p&gt;Quiet simple, right?! Well, that's the vocal point :)&lt;/p&gt;
+&lt;p&gt;Unfortunately the app not available yet in the AppStore yet. But I promise you
+I will put it on AppStore, one day.&lt;/p&gt;
+&lt;p&gt;Since I also have a nice Samsung Galaxy Tab that runs &lt;strong&gt;IceCream Sandwich&lt;/strong&gt;,
+then I decide to make the app avaliable for Android.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="enter-android-world"&gt;
+&lt;h2&gt;Enter Android World&lt;/h2&gt;
+&lt;p&gt;Everything goes well for the beginning. And I &lt;cite&gt;love&lt;/cite&gt; the new Eclipse (Juno),
+love how Android team improves ADT. But it's just not enough! I've always
+tested on the device. This is the look on GTab:&lt;/p&gt;
+&lt;img alt="images/pianaufal-apk.png" src="images/pianaufal-apk.png" /&gt;
+&lt;p&gt;Nice! I like it! Not finished, I know, but nice!&lt;/p&gt;
+&lt;p&gt;The problem is when I choose to tried on emulator.&lt;/p&gt;
+&lt;img alt="images/pianaufal-apk-emu.png" src="images/pianaufal-apk-emu.png" /&gt;
+&lt;p&gt;WOW! It perfectly fall apart! So if you want to make a good application on
+android, you must spent more time to design the UI to different device's screen
+size and dpi, and ofcourse, different android version.&lt;/p&gt;
+&lt;img alt="images/eclipse.png" src="images/eclipse.png" /&gt;
+&lt;p&gt;See??! ADT gives us 15 different screen size and dpi! Compared to iOS, we've just need to design two different size, for iphone and
+ipad. Well, three if you count the new ipad with retina display.&lt;/p&gt;
+&lt;p&gt;Maybe I must learn more about responsive design or get to know more about
+layout design in Android development. But for lazy guy like me, who want to
+build something simple pretty fast, &lt;em&gt;right now&lt;/em&gt; android is not my option. Hope
+android world will evolve and reduce the fragmentation problems.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Riza Fahmi</dc:creator><pubDate>Wed, 11 Jul 2012 13:00:00 +0700</pubDate><guid>.././this-is-why-i-hate-android-development.html</guid><category>android</category></item><item><title>Pelican and Github Says Hello!</title><link>.././pelican-and-github-says-hello.html</link><description>&lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Well, it works!&lt;/p&gt;
 &lt;/div&gt;

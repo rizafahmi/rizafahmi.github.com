@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Riza's Notes</title><link href="../." rel="alternate"></link><link href=".././feeds/all-en.atom.xml" rel="self"></link><id>../.</id><updated>2012-07-11T13:00:00+07:00</updated><entry><title>This Is Why I Hate Android Development</title><link href=".././this-is-why-i-hate-android-development.html" rel="alternate"></link><updated>2012-07-11T13:00:00+07:00</updated><author><name>Riza Fahmi</name></author><id>.././this-is-why-i-hate-android-development.html</id><summary type="html">&lt;p&gt;Well, this is the reason why I hate developing in android platform.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Riza's Notes</title><link href="../." rel="alternate"></link><link href=".././feeds/all-en.atom.xml" rel="self"></link><id>../.</id><updated>2012-07-11T13:00:00+07:00</updated><entry><title>Just Found Command-T Vim Plugin</title><link href=".././just-found-command-t-vim-plugin.html" rel="alternate"></link><updated>2012-07-11T13:00:00+07:00</updated><author><name>Riza Fahmi</name></author><id>.././just-found-command-t-vim-plugin.html</id><summary type="html">&lt;p&gt;After using vim/macvim for a while, I finally found file explorer plugin that
+suits my style. It's called
+&lt;a href="http://www.vim.org/scripts/script.php?script_id=3025"&gt;Command-T&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tried NERDTree, Fuzzy, Ctrl-P, even &lt;a href="https://github.com/alloy/macvim"&gt;MacVim with file
+browser&lt;/a&gt; but only Command-T suits me more.&lt;/p&gt;
+&lt;p&gt;&lt;img src="images/command_t.png" alt="command-t" width=600 /&gt;&lt;/p&gt;</summary><category term="vim"></category></entry><entry><title>This Is Why I Hate Android Development</title><link href=".././this-is-why-i-hate-android-development.html" rel="alternate"></link><updated>2012-07-11T13:00:00+07:00</updated><author><name>Riza Fahmi</name></author><id>.././this-is-why-i-hate-android-development.html</id><summary type="html">&lt;p&gt;Well, this is the reason why I hate developing in android platform.&lt;/p&gt;
 &lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;img alt="images/boy.png" src="images/boy.png" /&gt;

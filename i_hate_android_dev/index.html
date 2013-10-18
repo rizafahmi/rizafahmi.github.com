@@ -9,13 +9,21 @@
   <link rel="Shortcut Icon" href="/static/img/favicon.ico" type="image/x-icon" />
 
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="/static/css/pure-min.css">
-  <link rel="stylesheet" href="/static/css/syntax.css">
-  <link rel="stylesheet" href="/static/css/blog.css">
-  
-  <link rel="stylesheet" href="/static/css/base.css" />
-  <link href="/static/css/font-awesome.css" rel="stylesheet">
+  <!-- Modernizr -->
+  <script src="/static/js/libs/modernizr-2.6.2.min.js"></script>
+  <!-- jQuery-->
+  <script type="text/javascript" src="/static/js/libs/jquery-1.10.2.min.js"></script>
+
+  <!-- framework css --><!--[if gt IE 9]><!-->
+  <link type="text/css" rel="stylesheet" href="/static/css/groundwork.css"><!--<![endif]--><!--[if lte IE 9]>
+  <link type="text/css" rel="stylesheet" href="/static/css/groundwork-core.css">
+  <link type="text/css" rel="stylesheet" href="/static/css/groundwork-type.css">
+  <link type="text/css" rel="stylesheet" href="/static/css/groundwork-ui.css">
+  <link type="text/css" rel="stylesheet" href="/static/css/groundwork-anim.css">
+  <link type="text/css" rel="stylesheet" href="/static/css/groundwork-ie.css"><![endif]-->
+
+  <link type="text/css" rel="stylesheet" href="/static/css/mine.css">
+  <link type="text/css" rel="stylesheet" href="/static/css/syntax.css">
   
 
   <!-- Atom Feed -->
@@ -42,39 +50,27 @@
 </script>
 </head>
 <body>
-    <div class="pure-g-r" id="layout">
-        <div class="sidebar pure-u">
 
-          <header class="header">
-              <hgroup>
-                  <h1 class="brand-title">TrazLab</h1>
-                  <h3 class="brand-tagline">Lessons Learned by Learning-Addict</h3>
-              </hgroup>
-
-              <p>
-              I work at <a href="http://www.harukaedu.com" target="_blank">HarukaEdu</a> to help improve education system in Indonesia.<br /><br />
-              I love learning about anything and want to learn more by writing it down here.
-
-              </p>
-              <a href="#" class="pure-button pure-button-xsmall pure-button-warning"><i class="icon-file"></i></a>
-              <a href="http://www.linkedin.com/in/rizafahmi" class="pure-button pure-button-xsmall pure-button-primary" target="_blank"><i class="icon-linkedin-sign"></i></a>
-              <a href="https://twitter.com/rizafahmi22" class="pure-button pure-button-xsmall pure-button-secondary" target="_blank"><i class="icon-twitter-sign"></i></a>
-              <a href="http://gplus.to/riza" class="pure-button pure-button-xsmall pure-button-error" target="_blank"><i class="icon-google-plus-sign"></i></a>
-              <a href="https://github.com/rizafahmi" class="pure-button pure-button-xsmall" target="_blank"><i class="icon-github-sign"></i></a>
-          </header>
-    
+  <div class="container">
+    <!-- =================== HEADER ============================ -->
+    <header class="padded asphalt square box">
+      <div class="row">
+        <div class="one align-center bounceInRight animated">
+          <h1 class="zero museo-slab">TrazLab</h1>
+          <p>Lessons Learned From Learning-Addict Computer Scientist</p>
         </div>
-        <div class="pure-u-1">
-          <div class="content">
-            
-  <div class="posts">
-    <section class="post">
-      <header class="post-header">
-        <h2 class="post-title">This Is Why I Hate Android Development</h2>
-        <p class="post-meta">11 July 2012</p>
-      </header>
-      <div class="post-description">
-        <p><p>Well, this is the reason why I hate developing in android platform.</p>
+      </div>
+    </header>
+    <hr />
+
+    <!-- ================== CONTENT ========================= -->
+    <div class="row">
+      <section class="one whole padded bounceInDown aminated">
+        
+  <article class="padded one whole">
+      <h2 class="post-title">This Is Why I Hate Android Development</h2>
+      <small class="charcoal">11 July 2012</small>
+      <p><p>Well, this is the reason why I hate developing in android platform.</p>
 <h2>Introduction</h2>
 <p><img alt="image" src="/static/img/boy.png" /></p>
 <p>Since my baby boy loves playing piano app on the ipad, I decide to make some
@@ -104,25 +100,56 @@ ipad. Well, three if you count the new ipad with retina display.</p>
 layout design in Android development. But for lazy guy like me, who want to
 build something simple pretty fast, <em>right now</em> android is not my option. Hope
 android world will evolve and reduce the fragmentation problems.</p></p>
-        <a href="/" class="pure-button pure-button-small"><i class="icon-long-arrow-left icon-small"></i> Back</a>
-
-      
-      <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
-    </section>
-  </div>
- 
+      <p class="padded">
+        <div class="row">
+          <div class="one third align-left">
+            <a href="/" class="box asphalt" style="text-decoration: none;"><i class="icon-long-arrow-left icon-small"></i> Back</a>
+          </div>
+          <div class="two thirds align-left">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
           </div>
         </div>
-          
+      </p>
+
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </article>
+
+      </section>
     </div>
-    <footer class="footer">
-    This Blog Engine Proudly Powered By <a href="http://www.python.org/" target="_blank">Python</a>, <a href="http://flask.pocoo.org/" target="_blank">Flask Web Framework</a>, <a href="http://pythonhosted.org/Frozen-Flask/" target="_blank">Frozen-Flask Ext.</a>, and <a href="http://purecss.io/" target="_blank">PureCSS</a>.
+
+    <!-- ================= FOOTER ============================= -->
+    <footer class="gap-top bounceInUp animated">
+      <div class="box square charcoal">
+        <div class="container padded">
+          <div class="row">
+            <div class="two thirds">
+              <p>
+                My name is Riza Fahmi
+                I work at <a class="green-link" href="http://www.harukaedu.com" target="_blank">HarukaEdu</a> to help improve education system in Indonesia.
+                In my spare time, I co-found <a class="blue-link" href="http://www.trazpay.com/" target="_blank">TrazPay</a> that will become 
+                evolutionary payment method in Indonesia. <br /><br />
+                This is my lab, and I will do many experiment in this lab.
+              </p>
+            </div>
+
+            <div class="one third align-right">
+              <a class="large inline gapped noicon" style="text-decoration: none;" href="mailto:rizafahmi@gmail.com"><i class="icon-envelope icon-2x"></i></a>
+              <a class="large inline gapped noicon" style="text-decoration: none;" href="/static/img/cv-riza-rev5.png" target="_blank"><i class="icon-download icon-2x"></i></a>
+              <a class="large inline gapped noicon" style="text-decoration: none;" href="http://www.linkedin.com/in/rizafahmi" target="_blank"> <i class="icon-linkedin icon-2x"></i>
+              </a>
+              <a class="large inline gapped noicon" style="text-decoration: none;" href="https://twitter.com/rizafahmi22" target="_blank"> <i class="icon-twitter icon-2x"></i>
+              </a>
+              <a class="large inline gapped noicon" style="text-decoration: none;" href="http://gplus.to/riza" target="_blank"> <i class="icon-google-plus icon-2x"></i>
+              </a>
+              <a class="large inline gapped noicon" style="text-decoration: none;" href="https://github.com/rizafahmi" target="_blank"> <i class="icon-github icon-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="/static/js/gis6vng.js"></script>
-    <script>
-      try { Typekit.load(); } catch (e) {}
-    </script>
+  </div>
+
+
 </body>
 </html>

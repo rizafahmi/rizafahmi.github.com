@@ -1,4 +1,6 @@
 /* css/static/monokai.css */
+.codehilite { background-color: black;
+font-family: source-sans-pro,Helvetica,Arial,Geneva,sans-serif}
 .codehilite .hll { background-color: #49483e }
 .codehilite .c { color: #75715e } /* Comment */
 .codehilite .err { color: #960050; background-color: #1e0010 } /* Error */
@@ -58,3 +60,4 @@
 .codehilite .vg { color: #f8f8f2 } /* Name.Variable.Global */
 .codehilite .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .codehilite .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+.linenos { padding-right: 0 }
